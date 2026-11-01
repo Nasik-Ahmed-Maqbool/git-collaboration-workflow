@@ -3,6 +3,10 @@ def welcome():
 
 def calculate_total(price, quantity):
     return price * quantity
+    
+    
+def calculate_tax(price, tax):
+    return price + (price * tax / 100)
 
 if __name__ == "__main__":
     print(welcome())
