@@ -1,5 +1,5 @@
 def welcome():
-    return "Welcome to Git Collaboration Workflow"
+    return "Welcome to Our New Application"
 
 def calculate_total(price, quantity):
     return price * quantity
